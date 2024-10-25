@@ -194,14 +194,14 @@ body {
 .star:nth-child(26) {
     --star-tail-length: 1500px;
     --top-offset: 80vh;
-    --fall-duration: 10s;
+    --fall-duration: 7s;
     --fall-delay: 3s
 }
 
 .star:nth-child(29) {
     --star-tail-length: 2000px;
     --top-offset: 70vh;
-    --fall-duration: 12s;
+    --fall-duration: 8s;
     --fall-delay: 5s
 }
 
