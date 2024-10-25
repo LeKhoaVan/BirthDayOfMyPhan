@@ -9,7 +9,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-height: 100vh;
+    min-height: 100vh;
+    overflow-y: auto;
     background: radial-gradient(ellipse at bottom, #0d1d31 0%, #0c0d13 100%);
 
     overflow: hidden;
@@ -403,6 +404,8 @@ input[type="text"]:focus {
 @media(max-width: 414px) {
     .congratulation-for-you {
         font-size: 13px;
+        height: 260px;
+        overflow-y: auto;
     }
 
     label {
